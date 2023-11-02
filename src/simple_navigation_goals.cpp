@@ -18,7 +18,7 @@ int main(int argc, char** argv){
       
     //we'll send a goal to the robot to move 1 meter forward
     double goal_x = 5.0; double goal_y = 5.0;
-    goal.target_pose.header.frame_id = "base_link";
+    goal.target_pose.header.frame_id = "map";
     goal.target_pose.header.stamp = ros::Time::now();
     goal.target_pose.pose.position.x = goal_x; 
     goal.target_pose.pose.position.y = goal_y;
