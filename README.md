@@ -1,0 +1,3 @@
+catkin build
+source devel/setup.bash
+rosrun simple_navigation_goals simple_navigation_goals
